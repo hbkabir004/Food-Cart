@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FOOD</title>
+    <link rel="stylesheet" href="./style/bootstrap.min.css" />
+  </head>
+  <body class="container">
+    <header>
+      <h1 class="text-warning text-center my-3">FOINNEE's FOOD ZONE</h1>
+    </header>
+    <main>
+      <div class="text-center my-3">
+        <input
+          id="search-field"
+          type="text"
+          placeholder="search your favourite foods"
+        />
+        <button onclick="searchFood()" class="btn btn-warning">Search</button>
+      </div>
+
+      <div
+        id="detail-container"
+        class="mx-auto my-4"
+        style="width: 25rem"
+      ></div>
+      <div
+        id="food-container"
+        class="row row-cols-1 row-cols-md-4 g-4 mb-5"
+      ></div>
+    </main>
+    <!-- Scripts -->
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/food.js"></script>
+  </body>
+</html>
